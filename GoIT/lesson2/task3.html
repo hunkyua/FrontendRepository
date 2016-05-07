@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form name="Employee" action="/">
+    Name <br/>
+    <input type="text" name="name" value="Василий"/> <br/><br/>
+    Email <br/>
+    <input type="EMAIL" name="email" value="email@mail.com"/><br/><br/>
+
+    Sex <br/>
+    <input type="radio" name="option1" checked> Male
+    <input type="radio" name="option2"> Female <br/><br/>
+
+    Current status <br/>
+    <input type="checkbox"/> Student <br/>
+    <input type="checkbox"/> Enployee <br/>
+    <input type="checkbox"/> Unemployed <br/> <br/>
+
+    Month and Year of birth <br/>
+    <select name="month" id="month">
+        <option value="January">January</option>
+        <option value="February" selected="selected">February</option>
+        <option value="March">March</option>
+    </select>
+    <select name="year" id="year">
+        <option value="1984">1984</option>
+        <option value="1990" selected="selected">1990</option>
+        <option value="2000">2000</option>
+    </select> <br/><br/>
+
+    Skill and Technologies <br/>
+    <select name="catalog" size="11">
+    <optgroup label="Tech Skills">
+        <option value="1">HTML</option>
+        <option value="2">SCC</option>
+        <option value="3">JavaScript</option>
+        <option value="4">Git</option>
+    </optgroup>
+        <optgroup label="Soft skills">
+            <option value="5">Time management</option>
+            <option value="6">Proactivity</option>
+            <option value="7">Teamwork</option>
+            <option value="8">Leadership</option>
+        </optgroup>
+    </select> <br/><br/>
+
+    Photo <br/>
+    <input type="file" name="file" size="50"/> <br/><br/>
+
+    Comments <br/>
+    <textarea cols="20" rows="3"></textarea> <br/><br/>
+
+    <button>Save</button>
+
+</form>
+</body>
+</html>
