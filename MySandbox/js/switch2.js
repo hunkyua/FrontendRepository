@@ -4,7 +4,7 @@ var valentin = {
 	city: "Kiev",
 	sex: "male"
 };
-console.log(valentin.age);
+
 
 var setAge = function(age) {
 this.age = age;
@@ -14,6 +14,14 @@ var getAge = function() {
 	return this.age;
 };
 
+function Person (name, age) {
+	this.name = name;
+	this.age = age;
+};
+var alex = new Person("Alex", 22);
+console.log(alex);
+console.log(alex.name);
+console.log(alex.age);
 valentin.setAge = setAge;
 valentin.getAge = getAge;
 
