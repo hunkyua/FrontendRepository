@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background: #a64dff;
+  height: 30px;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 900px;
+  background: #a64dff;
+  height: 30px;
+}
+
+span {
+  display: inline-block;
+  margin: 0 -2px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: impact;
+  color: #fff;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  float: left;
+}
+
+span:hover {
+  color: #abb6c2;
+  background: #eeeeee;
+}
+
+.float1 {
+  float: right;
+  width: 5em;
+}

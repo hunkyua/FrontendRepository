@@ -1,0 +1,29 @@
+body {
+	background: #ece9d8;
+}
+
+
+ul {
+	background: #a64dff;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	font-family: impact;
+	width: 900px;
+	line-height:40px;
+	color: white;
+	padding: 10px;
+	margin: auto;
+}
+
+li:hover {
+	display: inline;
+	font-family: impact;
+	width: 900px;
+	color: #abb6c2;
+	background: #eeeeee;
+	padding: 10px;
+	margin: auto;
+}
