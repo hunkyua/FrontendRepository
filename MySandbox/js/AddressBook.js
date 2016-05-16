@@ -38,10 +38,6 @@ then call it passing "Jones"*/
 
 
 var add = function(firstName, lastName, email, phoneNumber) {
-   this.firstName = firstName; 
-   this.lastName = lastName; 
-   this.email = email; 
-   this.phoneNumber = phoneNumber;
    contacts[contacts.length] = {
     firstName: firstName,
     lastName : lastName,
