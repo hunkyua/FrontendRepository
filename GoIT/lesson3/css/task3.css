@@ -1,0 +1,6 @@
+p:only-of-type {
+    background: green;
+}
+h1:only-of-type {
+    background: red;
+}

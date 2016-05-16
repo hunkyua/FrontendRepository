@@ -1,0 +1,6 @@
+table tr:nth-child(2n) {
+	background: #ddebf7;
+}
+table tr td:nth-child(2n+3) {
+	background: #f2f2de;
+}

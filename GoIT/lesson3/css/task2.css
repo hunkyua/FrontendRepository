@@ -1,0 +1,13 @@
+/* 
+	— Первый параграф в article
+	  выделить бОльшим кеглем
+	— последний цветом #999
+*/
+
+article p:first-of-type {
+	font-size: large;
+}
+
+article p:last-of-type {
+	color: #999;
+}

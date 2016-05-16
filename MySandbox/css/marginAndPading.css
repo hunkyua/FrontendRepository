@@ -1,0 +1,20 @@
+.div1 {
+	position: absolute;
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+}
+
+.centerDiv {
+	position: inherit;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background: red;
+	width: 50px;
+	height: 50px;
+
+	
+}
