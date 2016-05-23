@@ -1,0 +1,135 @@
+body {
+background-color: #BDE812;
+width: 100%;
+height: 100%;
+}
+.score {
+	position: fixed;
+	margin: 5px 150px;
+	color: red;
+	font-size: 25px;
+}
+
+.hello {
+	position: fixed;
+	width: 300px;
+	margin: 120px 280px;
+	color: #F80634;
+	font-size: 30px;
+	font-weight: bold;
+}
+.myImg {
+	position: fixed;
+	margin-left: -200px;
+	margin-bottom: -100px;
+}
+
+#main {
+	width: 197px;
+	height: 197px;
+	background: green;
+	border: 1px solid black; 
+	position: relative;
+}
+
+.div1 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	background: orange;
+	margin: 10px 10px;
+	position: fixed;
+}
+.div2 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	background: orange;
+	margin: 10px 70px;
+	position: fixed;
+}
+ .div3 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 10px 130px;
+	background: orange;
+	position: fixed;
+}
+
+.div4 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 70px 10px;
+	background: orange;
+	position: fixed;
+}
+
+.div5 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 70px 70px;
+	background: orange;
+	position: fixed;
+}
+
+.div6 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 70px 130px;
+	background: orange;
+	position: fixed;
+}
+
+.div7 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 130px 10px;
+	background: orange;
+	position: fixed;
+}
+.div8 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 130px 70px;
+	background: orange;
+	position: fixed;
+}
+.div9 {
+	display: none;
+	border: 1px solid black;
+	width: 55px;
+	height: 55px;
+	margin: 130px 130px;
+	background: orange;
+	position: fixed;
+}
+img {
+	margin: 2px 2px;
+}
+
+button {
+	float: left;
+	margin: 10px 10px;
+}
+
+.showAll {
+	margin: 5px 210px;
+}
+.hideAll {
+	display: none;
+	margin: 5px 210px;
+}
