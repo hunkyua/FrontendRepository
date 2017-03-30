@@ -1,0 +1,23 @@
+#page {
+	margin: 36px auto;
+	width: 90%;
+	background-color: #efe4b0;
+}
+
+.blog {
+	margin: 0 auto 53px;
+	width: 93,75%;  /* 900px / 960px */
+	background-color: yellow;
+}
+
+.blog.main { 
+	float: left;
+	width: 62,88%;  /* 566px / 900px */
+	background-color: grey;
+}
+
+.blog.other {
+	float: right;
+	width: 36,77; /* 331px / 900px */
+	background-color: green;
+}
