@@ -39,6 +39,112 @@ body {
 	padding: 0.8em 5.33333333%; /* 48px / 900px */
 }
 
+.logo {
+background: #C52618 url("logo-bg.jpg");
+float: left;
+width: 16.875 %; /* 162px / 960px */
+}
+
+.nav-primary {
+background: #5E140D url("nav-bg.jpg");
+padding: 1.2em 1em 1em;
+}
+
+.nav-primary li {
+display: inline;
+}
+
+.main-title {
+background: #000;
+color: #FFF;
+font: normal 3.625em/0.9 "League Gothic",
+"Arial Narrow", Arial, sans-serif; /* 58px /
+16px */
+text-transform: uppercase;
+}
+
+/**********************************************************/
+@media screen and (max-width: 768px) {
+#page {
+position: relative;
+margin: 20px;
+width: auto;
+}
+
+.welcome, .blog, .gallery {
+margin: 0 0 30px;
+width: auto;
+}
+
+.logo {
+float: none;
+margin: 0 auto 20px;
+position: relative;
+}
+
+.nav-primary {
+margin-bottom: 20px;
+text-align: center;
+}
+
+.main-title {
+font: normal 1.5em Calibri, Candara,
+Segoe, "Segoe UI", Optima, Arial,
+Helvetica, sans-serif; /* 24px / 16px */
+}
+
+.slides .figure b {
+width: auto;
+}
+
+.slides .figure b img {
+max-width: 100 %;
+}
+
+}
+/**********************************************************/
+/**********************************************************/
+
+@media screen and (max-width: 520px) {
+.nav-primary {
+	float: left;
+width: 100 %;
+}
+.nav-primary li {
+clear: left;
+float: left;
+width: 48 %;
+}
+li#nav-rated,
+li#nav-contact {
+clear: right;
+float: right;
+}
+.nav-primary a {
+display: block;
+padding: 0.45em;
+}
+}
+/**********************************************************/
+/**********************************************************/
+
+@media screen and (min-width: 1200px) {
+.welcome, .blog, .gallery {
+width: 49.375 %;
+}
+.welcome, .gallery {
+float: right;
+margin: 0 0 40px;
+}
+.blog {
+float: left;
+margin: 0 0 20px;
+}
+}
+
+/**********************************************************/
+
+
 #page {
 	margin: 36px auto;
 	width: 90%;
@@ -48,5 +154,16 @@ body {
 .recent-entries {
 	margin: 0 auto;
 	width: 69.7885196%; /* 231px / 331px */
+}
+
+.slides .figure b {
+display: block;
+overflow: hidden;
+margin-bottom: 0;
+width: 112.272727 %; /* 741px / 660px */
+}
+.slides .figure b img {
+display: block;
+max-width: inherit;
 }
 
